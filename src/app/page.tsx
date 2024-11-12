@@ -6,18 +6,19 @@ const page = () => {
   return (
     <div className='grid w-auto'>
    <Header/>   
-<div className='w-auto h-[980px] px-50 mt-7 bg-cover  bg-[url(/images/bg1.jpg)]'> 
- 
- <h1 className='grid text-shadow-[blue-500]  text-[5rem] text-center font-serif' > Here You Are Reading <br/>About Plants</h1>
-<p className='grid w-auto text-[2rem] px-14 from-teal-400 font-thin'> Lorem ipsum dolor sit amet consectetur adipisicing elit.<br/> Recusandae asperiores inventore rem alias quo,<br/> voluptate ullam eos, consequuntur excepturi pariatur facilis<br/> eligendi? Excepturi,<br/> officiis. Labore distinctio quasi officiis sit eos!</p>
-<ol className='grid list-disc text-[28px] px-[5em] leading-[4rem]'> 
+<div className='grid state w-auto'>
+<Image src="/images/bg1.jpg" alt="bg" width={1000} height={550}  className='relative'/>
+<section className='mt-[-750px] relative'>
+ <h1 className='grid  text-[3.8rem] text-center font-serif' > Here You Are Reading <br/>About Plants</h1>
+<p className='grid w-auto text-[1.5rem] px-14 font-serif '> Lorem ipsum dolor sit amet consectetur adipisicing elit.<br/> Recusandae asperiores inventore rem alias quo,<br/> voluptate ullam eos, consequuntur excepturi pariatur facilis<br/> eligendi? Excepturi,<br/> officiis. Labore distinctio quasi officiis sit eos!</p>
+<ol className='grid list-disc text-[20px] px-[5em] leading-[2.8rem]'> 
   <li> Type of Plants </li>
   <li> Scientific Names </li>
   <li> Price of Plants </li>
   <li> About Us </li>
   <li> Contact Us</li>
 </ol>
-
+</section>
 </div>
       
       <div className='maindiv grid w-auto'>
