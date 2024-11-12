@@ -3,12 +3,12 @@ import Image from 'next/image'
 import Link from 'next/link'
 const Footer= () => {
   return (
-<div className='grid w-auto'>    
-<div className='w-auto h-14 px-3 font-serif bg-green-800 bg-opacity-75  flex justify-between'>
-<div className='flex'>
+    
+<div className='flex justify-between w-auto h-14  bg-green-800 bg-opacity-75'>
+<div className='flex font-serif'>
         <Image src="/images/mainlogo.jpg" alt="footerlogo" height={50} width={50} className='rounded-full ' />
-        <h1 className='font-serif text-2xl py-5' > Footer</h1>
-        </div>
+        <h1 className='font-serif text-2xl py-5 px-2' > Footer</h1>
+ </div>
 <div className='flex '>
         <Link href="https://web.facebook.com/?_rdc=1&_rdr#" target='blank'>
         <Image src="/images/facebook-svg.svg" alt="facebook" height={45} width={45} className='pt-1.5 cursor-pointer rounded-full ' />
@@ -21,7 +21,7 @@ const Footer= () => {
         </Link>
         </div>
         </div>        
-    </div>
+
   )
 }
 

@@ -24,7 +24,7 @@ export default function contactus() {
 </div>
       
       
-      <div className='divf grid static mt-[-630px] ml-96  opacity-90 '>
+      <div className='divf grid mx-auto static mt-[-630px] ml-96  opacity-90 '>
       <h1 className=' grid text-[45px] font-serif  text-black  pb-8 ml-3'>
       Contact Us </h1>
       <div className='w-auto ml-[-2]'>
