@@ -6,7 +6,7 @@ import Image from 'next/image'
 const Header= () => {
   return (
     
-    <div className=' w-auto h-14 bg-green-800  flex justify-between items-center px-3'>
+    <div className=' w-100 h-14 bg-green-800  flex justify-between items-center px-3'>
       <div className='logo text-white text-[36px] font-serif flex my-5'>
       <Image src="/images/mainlogo.jpg" alt="footerlogo" height={50} width={50} className='rounded-full ' />
 
