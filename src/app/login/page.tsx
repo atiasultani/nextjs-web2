@@ -1,8 +1,10 @@
 import React from 'react'
+import Header from '@/Components/Header/page'
 import Footer from '@/Components/Footer/page'
 const page = () => {
   return (
 <div className='grid w-auto'>
+  <Header/>
     <div className='main flex bg-[url(/images/background1.jpg)] bg-cover w-screen h-screen justify-evenly items-center'>
     
       <p className='text-[40px] font-serif text-cyan-700 '>Welcom To Our Plants World</p>

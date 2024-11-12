@@ -1,9 +1,11 @@
 import React from 'react'
 import Image from 'next/image'
+import Header from '@/Components/Header/page'
 import Footer from '@/Components/Footer/page'
 export default function contactus() {
   return (
     <div className='grid w-auto h-auto bg-orange-200'>
+      <Header/>
 <h1 className='grid text-3xl text-green-900 font-serif text-center m-7'>About Us</h1>
 <p className='grid  text-black text-center'>
       Lorem, ipsum dolor sit amet consectetur adipisicing elit.<br/>Fuga quos debitis quidem a natus sit consequuntur quibusdam iure earum <br/>eaque animi vel, voluptates non praesentium minus maxime  mollitia aut enim!

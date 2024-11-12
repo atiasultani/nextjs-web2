@@ -1,9 +1,11 @@
 import React from 'react'
 import Image from 'next/image'
+import Header from '@/Components/Header/page'
 import Footer from '@/Components/Footer/page'
 const page = () => {
   return (
 <div className='grid w-auto'>
+<Header/> 
       <button className='cart fixed rounded-full ml-[55rem] mt-24'><Image src="/images/cart.jpg" alt="YourCart" title='YourCart' width={50} height={50} className='rounded-full'/></button>  
       <h1 className='text-[35px] bg-slate-500 text-white opacity-25 font-serif font-extralight text-center reltive'> Purchasing OR Dontion For Plants </h1>
       

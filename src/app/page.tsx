@@ -1,10 +1,11 @@
 import React from 'react'
 import Image from 'next/image'
+import Header from '@/Components/Header/page'
 import Footer from '@/Components/Footer/page'
 const page = () => {
   return (
     <div className='grid w-auto'>
-      
+   <Header/>   
 <div className='w-auto h-[980px] px-50 mt-7 bg-cover  bg-[url(/images/bg1.jpg)]'> 
  
  <h1 className='grid text-shadow-[blue-500]  text-[5rem] text-center font-serif' > Here You Are Reading <br/>About Plants</h1>

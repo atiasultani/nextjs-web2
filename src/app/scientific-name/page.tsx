@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
+import Header from '@/Components/Header/page'
 import Footer from '@/Components/Footer/page'
 
 
@@ -7,6 +8,7 @@ import Footer from '@/Components/Footer/page'
 const page = () => {
   return (
 <div className='grid grid-flow-row w-auto h-100'>
+    <Header/>
     <div className='bg-black  flex-col'>
       <section className='flex py-5 '>
 <div className='py-24 pl-5'>
