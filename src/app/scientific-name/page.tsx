@@ -15,7 +15,7 @@ const page = () => {
             <Image src="/images/orangerose.jpg" alt="plant-picture" width={300} height={300} className="rounded-full outline-6 outline-lime-400 outline-dashed" />
           </div>
           <p className="text-white px-12 py-10 sm:py-24 text-center sm:text-left">
-            Rosa Soleil didOr is a Foetida hybrid rose cultivar bred by Joseph Pernet-Ducher and introduced on November 1, 1900. It is the ancestor of all modern Hybrid tea roses and the first yellow-orange rose. Pernet-Ducher later crossed Soleil d'Or with Tea roses to create a new class known as Pernetiana roses.
+            Rosa Soleil didOr is a Foetida hybrid rose cultivar bred by Joseph Pernet-Ducher and introduced on November 1, 1900. It is the ancestor of all modern Hybrid tea roses and the first yellow-orange rose. Pernet-Ducher later crossed Soleil dOr with Tea roses to create a new class known as Pernetiana roses.
           </p>
         </section>
 
@@ -60,7 +60,7 @@ const page = () => {
           </div>
           <p className="text-white px-10 py-10 sm:px-5 sm:py-24 text-center sm:text-left">
             <h1 className="font-bold text-lg sm:text-xl">Taxonomy:</h1>
-            The scientific name of the tulip is <i>Tulipa gesneriana</i>. The genus <i>Tulipa</i> comprises about 75 species of bulbous plants that are native to Europe, Asia, and North Africa. The name Tulipa is derived from the Turkish word "tulbend," meaning turban, as the flower's shape resembles a turban. The species name "gesneriana" honors the Swiss naturalist and botanist Conrad Gesner (1516-1565), who wrote extensively about plants and animals.
+            The scientific name of the tulip is <i>Tulipa gesneriana</i>. The genus <i>Tulipa</i> comprises about 75 species of bulbous plants that are native to Europe, Asia, and North Africa. The name Tulipa is derived from the Turkish word tulbend meaning turban as the flower is shape resembles a turban. The species name gesneriana honors the Swiss naturalist and botanist Conrad Gesner (1516-1565) who wrote extensively about plants and animals.
           </p>
         </section>
 
