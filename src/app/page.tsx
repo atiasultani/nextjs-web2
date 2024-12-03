@@ -56,13 +56,14 @@ const page = () => {
         </div>
 
         <div className="heading2 flex flex-col md:flex-row justify-evenly gap-8">
-          <div className="image grid px-4">
+          <div className="image grid px-4 mt-20">
             <Image
               src="/images/bean-pkant-root.jpg"
               alt="plant-picture"
-              width={350}
-              height={350}
-              className="rounded-full outline-6 outline-emerald-600 outline-double"
+              width={550}
+              height={550}
+              className="rounded-full outline-6 outline-emerald-600 
+              outline-double"
             />
           </div>
           <div className="grid p-4 md:p-7">
@@ -92,12 +93,12 @@ const page = () => {
               tissue.
             </p>
           </div>
-          <div className="image grid px-4 md:px-6">
+          <div className="image grid px-4 md:px-6 mt-16">
             <Image
               src="/images/stem.jpg"
               alt="plant-picture"
-              width={250}
-              height={250}
+              width={550}
+              height={550}
               className="rounded-full outline-6 outline-emerald-600 outline-double"
             />
           </div>
