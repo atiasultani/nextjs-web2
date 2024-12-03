@@ -1,13 +1,10 @@
 import React from 'react'
 import Image from 'next/image'
-import Header from '@/Components/Header/page'
-import Footer from '@/Components/Footer/page'
 
 const page = () => {
   return (
     <div className="w-full">
-      <Header />
-
+     
       <div className="grid w-full">
         <Image
           src="/images/bg1.jpg"
@@ -107,7 +104,6 @@ const page = () => {
         </div>
       </div>
 
-      <Footer />
     </div>
   )
 }

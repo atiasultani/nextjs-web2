@@ -1,12 +1,10 @@
-import React from 'react'
-import Image from 'next/image'
-import Header from '@/Components/Header/page'
-import Footer from '@/Components/Footer/page'
+import React from 'react';
+import Image from 'next/image';
 
 const page = () => {
   return (
     <div className="w-full h-auto">
-      <Header />
+
       <div className="bg-black flex-col">
 
         {/* First Section */}
@@ -75,8 +73,9 @@ const page = () => {
         </section>
 
       </div>
-      <Footer />
+
     </div>
+    
   )
 }
 

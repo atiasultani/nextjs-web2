@@ -1,18 +1,17 @@
 import React from 'react'
 import Image from 'next/image'
-import Header from '@/Components/Header/page'
-import Footer from '@/Components/Footer/page'
 
 export default function contactus() {
   return (
     <div className='w-full h-auto bg-orange-200'>
-      <Header />
 
-      <h1 className='text-3xl text-green-900 font-serif text-center mt-7 mb-4 px-4 md:px-0'>
+
+      <h1 className='text-3xl text-green-900 font-serif 
+      text-center mt-7 mb-4 px-4 md:px-0 lg:pt-3 '>
         About Us
       </h1>
 
-      <p className='text-black text-center px-6 md:px-12'>
+      <p className='text-black text-center text-2xl px-6 md:px-12'>
         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fuga quos debitis
         quidem a natus sit consequuntur quibusdam iure earum eaque animi vel,
         voluptates non praesentium minus maxime mollitia aut enim!
@@ -40,12 +39,13 @@ export default function contactus() {
 
       {/* Contact Form Section */}
       <div className='relative z-10 mt-[-630px] mx-4 md:mx-16'>
-        <h1 className='text-3xl font-serif text-black pb-8 text-center md:text-left'>
+        <h1 className='text-4xl  font-serif text-black pb-8 
+        text-center md:text-left'>
           Contact Us
         </h1>
 
         <div className='w-full mx-auto'>
-          <div className='mb-6'>
+          <div className='mb-6 text-2xl'>
             <b>Name :</b>
             <br />
             <input
@@ -58,7 +58,7 @@ export default function contactus() {
             />
           </div>
 
-          <div className='mb-6'>
+          <div className='mb-6 text-2xl'>
             <b>Nationality :</b>
             <br />
             <input
@@ -70,7 +70,7 @@ export default function contactus() {
             />
           </div>
 
-          <div className='mb-6'>
+          <div className='mb-6 text-2xl'>
             <b>Phone No :</b>
             <br />
             <input
@@ -82,7 +82,7 @@ export default function contactus() {
             />
           </div>
 
-          <div className='mb-6'>
+          <div className='mb-6 text-2xl'>
             <b>Message :</b>
             <br />
             <textarea
@@ -96,13 +96,12 @@ export default function contactus() {
           <button
             type='submit'
             className='w-32 bg-green-900 text-white mx-auto block mt-8 px-4 py-2 text-lg rounded hover:bg-green-700 transition duration-200'
-          >
-            Submit
+          > Submit
           </button>
         </div>
       </div>
 
-      <Footer />
+  
     </div>
   )
 }

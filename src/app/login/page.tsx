@@ -1,11 +1,8 @@
 import React from 'react'
-import Header from '@/Components/Header/page'
-import Footer from '@/Components/Footer/page'
 
 const page = () => {
   return (
     <div className='w-full'>
-      <Header />
       
       <div className='main flex bg-[url(/images/background1.jpg)] bg-cover bg-center w-full h-screen justify-center items-center'>
         
@@ -47,7 +44,6 @@ const page = () => {
         </div>
       </div>
       
-      <Footer />
     </div>
   )
 }
